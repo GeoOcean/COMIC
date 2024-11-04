@@ -5,7 +5,7 @@ dependencies:
   - cartopy
   - ipywidgets
   - python=3.10
-  - matplotlib
+  - matplotlib=3.5.2
   - netCDF4
   - notebook
   - numpy
