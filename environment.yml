@@ -5,16 +5,17 @@ dependencies:
     - cartopy
     - ipywidgets
     - python
-    - matplotlib
+    - matplotlib=3.5.2
     - netCDF4
     - notebook
-    - numpy
+    - numpy=1.23.1
     - pandas
     - plotly
-    - scipy
+    - reliability=0.8.6
+    - scipy=1.9.1
     - seaborn
     - statsmodels
     - scikit-learn
-    - xarray
+    - xarray=0.20.1
     - xlrd
     - ipykernel
