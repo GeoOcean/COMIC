@@ -1,21 +1,23 @@
 name: comic
 channels:
-    - conda-forge
+  - conda-forge
 dependencies:
-    - cartopy
-    - ipywidgets
-    - python
-    - matplotlib=3.5.2
-    - netCDF4
-    - notebook
-    - numpy=1.23.1
-    - pandas
-    - plotly
-    - reliability=0.8.6
-    - scipy=1.9.1
-    - seaborn
-    - statsmodels
-    - scikit-learn
-    - xarray=0.20.1
-    - xlrd
-    - ipykernel
+  - cartopy
+  - ipywidgets
+  - python=3.10
+  - matplotlib
+  - netCDF4
+  - notebook
+  - numpy
+  - pandas
+  - plotly
+  - scipy=1.9.1
+  - seaborn
+  - statsmodels
+  - scikit-learn
+  - xarray
+  - xlrd
+  - ipykernel
+  - pip
+  - pip:
+      - reliability==0.8.6
